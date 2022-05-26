@@ -1,4 +1,6 @@
 ## 📽 MovieGo - Video Editing in Golang
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fflyer116%2Fmoviego.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fflyer116%2Fmoviego?ref=badge_shield)
+
 
 **MovieGo** is a Golang library for video editing. The library is designed for fast processing of routine tasks related to video editing. The main core of the project is the [ffmpeg-go](https://github.com/u2takey/ffmpeg-go) package, which simplifies working with the **ffmpeg** library.
 
@@ -132,3 +134,7 @@ func main() {
     first.FadeIn(0, 3).FadeOut(5).Screenshot(0.4, "screen.png")
 }
 ```
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fflyer116%2Fmoviego.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fflyer116%2Fmoviego?ref=badge_large)
